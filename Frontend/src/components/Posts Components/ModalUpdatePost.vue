@@ -133,7 +133,7 @@ const onFileChange = (e) => {
 
 const user = JSON.parse(localStorage.getItem('userInfo'))
 
-axios.defaults.baseURL = 'http://localhost:80'
+axios.defaults.baseURL = 'http://localhost:8000'
 
 
 const emit = defineEmits(['closeModal'])

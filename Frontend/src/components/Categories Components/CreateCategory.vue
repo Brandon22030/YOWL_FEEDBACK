@@ -109,7 +109,7 @@ const validateImage = () => {
 const userInfo = JSON.parse(localStorage.getItem('userInfo'))
 
 
-axios.defaults.baseURL = 'http://localhost:80'
+axios.defaults.baseURL = 'http://localhost:8000'
 
 const submitForm = async () => {
   validateName()

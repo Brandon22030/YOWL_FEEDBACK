@@ -87,7 +87,7 @@
 
               <img
                 class="h-[15rem] bg-cover w-[15rem] my-auto object-cover object-center"
-                :src="'http://localhost:80/storage/' + post.image"
+                :src="'http://localhost:8000/storage/' + post.image"
               />
               <div class="compos">
                 <h1>{{ post.title }}</h1>

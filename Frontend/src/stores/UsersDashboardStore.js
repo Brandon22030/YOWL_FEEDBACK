@@ -33,7 +33,7 @@ export const useUserStore = defineStore('user', {
 
     PostNumber: null,
 
-    url: 'http://localhost:80/api'
+    url: 'http://localhost:8000/api'
   }),
 
   actions: {

@@ -9,7 +9,7 @@ export const usePostStore = defineStore('topic', {
     PostsByCategory: [],
     postCount: '',
     total: null,
-    url: 'http://localhost:80/api'
+    url: 'http://localhost:8000/api'
 
 
     // }
@@ -57,7 +57,7 @@ export const usePostStore = defineStore('topic', {
         method: 'GET',
         headers: { 'Content-Type': 'application/json' }
       }
-      const response = await fetch(`http://localhost:80/api/posts/` + id, rqoptions)
+      const response = await fetch(`http://localhost:8000/api/posts/` + id, rqoptions)
 
       const data = await response.json()
 
@@ -69,7 +69,7 @@ export const usePostStore = defineStore('topic', {
     },
     
     async countPostComment(id){
-      const response = await fetch(`http://localhost:80/api/posts/${id}/comments`)
+      const response = await fetch(`http://localhost:8000/api/posts/${id}/comments`)
       
       const data = await response.json()
 

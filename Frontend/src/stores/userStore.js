@@ -8,7 +8,7 @@ export const userStore = defineStore('userStore', {
 
         user: '',
 
-        url: 'http://localhost:80/api'
+        url: 'http://localhost:8000/api'
 
     }),
 
