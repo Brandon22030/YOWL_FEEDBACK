@@ -190,7 +190,7 @@ const authStore = useAuthStore()
 
 const userInfo = JSON.parse(localStorage.getItem('userInfo'))
 
-const src = 'http://localhost:8000/storage/'
+const src = 'http://20.41.87.214:8000/storage/'
 
 
 const PostStore = usePostStore()

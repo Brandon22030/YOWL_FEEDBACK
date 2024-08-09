@@ -229,7 +229,7 @@ const categoriesStore = CategoriesStore()
 
 const ID = useRoute().params.id
 
-const src = 'http://localhost:8000/storage/'
+const src = 'http://20.41.87.214:8000/storage/'
 
 const user = JSON.parse(localStorage.getItem('userInfo'))
 
