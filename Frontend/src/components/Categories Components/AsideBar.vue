@@ -68,7 +68,7 @@
     const PostStore = usePostStore()
   
 
-const src = 'http://20.41.87.214:8000/storage/'
+const src = 'http://localhost:80/storage/'
 
 
     // function getImage(image){

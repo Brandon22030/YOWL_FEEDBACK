@@ -8,7 +8,7 @@ export const useCommentairesStore = defineStore('commentaires', {
     comments: [],
     total: [],
     minutes:'',
-    url: 'http://20.41.87.214:8000/api'
+    url: 'http://localhost:80/api'
   }),
   actions: {
     async fetchComments() {

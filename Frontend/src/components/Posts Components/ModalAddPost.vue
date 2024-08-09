@@ -117,7 +117,7 @@ import { useAuthStore } from '@/stores/authStore'
 
 const user = JSON.parse(localStorage.getItem('userInfo'))
 
-axios.defaults.baseURL = 'http://20.41.87.214:8000'
+axios.defaults.baseURL = 'http://localhost:80'
 
 
 const ID = useRoute().params.id
