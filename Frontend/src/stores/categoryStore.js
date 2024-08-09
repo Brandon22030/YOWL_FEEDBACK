@@ -13,7 +13,7 @@ export const CategoriesStore = defineStore('categories', {
 
   allPosts:[],
 
-    url: 'http://20.41.87.214:5173/api'
+    url: 'http://20.41.87.214:8000/api'
   }),
 
   actions: {
