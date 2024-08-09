@@ -54,7 +54,7 @@ const showReplyForm = (commentId) => {
   repToCommentId.value = commentId
 }
 
-const src = 'http://127.0.0.2:8000/storage/'
+const src = 'http://20.41.87.214:5173/storage/'
 
 
 const editComment = async (id, content) => {

@@ -9,7 +9,7 @@ export const usePostStore = defineStore('topic', {
     PostsByCategory: [],
     postCount: '',
     total: null,
-    url: 'http://127.0.0.2:8000/api'
+    url: 'http://20.41.87.214:5173/api'
 
 
     // }
@@ -57,7 +57,7 @@ export const usePostStore = defineStore('topic', {
         method: 'GET',
         headers: { 'Content-Type': 'application/json' }
       }
-      const response = await fetch(`http://127.0.0.2:8000/api/posts/` + id, rqoptions)
+      const response = await fetch(`http://20.41.87.214:5173/api/posts/` + id, rqoptions)
 
       const data = await response.json()
 
